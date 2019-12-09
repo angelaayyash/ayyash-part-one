@@ -1,0 +1,153 @@
+
+
+html {
+    background-color: #e8ded9;
+  }
+  
+  header {
+      /* float: left; */
+  }
+
+  nav {
+    /* display: flex;
+    justify-content: flex-end; */
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-image: 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+  }
+
+  .parent-container {
+    display: flex;
+    justify-content: flex-end;
+    color: #5b8c6f;
+    padding: 12px;
+}
+
+
+button {
+  background-color: #61c386;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #f7e966; 
+  color: white;
+  cursor: pointer;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+ul li{
+
+  /* padding: 12px;
+  border-radius: 10px; */
+  list-style-type:none;
+  color: #5b8c6f;
+}
+
+ul li a{
+  color: #5b8c6f;
+  text-decoration: none;
+}
+
+ul li.contact{
+  background-color: #61c386;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+ul li.contact a{
+  color: #fff;
+  font-size: 16px;
+}
+
+ul li:hover{
+  /* background-color: #61c386; */
+  /* color: #fff; */
+  cursor: pointer;
+}
+
+ul li:hover a{
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+  header{
+    display: inline-flex;
+    
+  }
+  .header-cointainer{
+  display:flex;
+  justify-content: space-between;
+}
+  nav{
+ 
+  }
+  ul li.contact{
+    background-color: unset;
+    width: auto;
+    text-align: center;
+    padding: 12px;
+    margin-top: 0;
+    /* border-radius: 0; */
+  }
+  
+  ul li.contact a{
+    color: #5b8c6f;
+  }
+ ul{
+   display: flex;
+   justify-content: flex-end;
+   flex-flow: row nowrap;
+ }
+ ul li{
+    padding: 12px;
+    border-radius: 10px;
+ }
+ 
+ ul li:hover{
+  background-color: #61c386;
+  color: #fff;
+}
+ul li a:hover{
+  color: #fff;
+}
+
+button{
+  width: auto;
+}
+
+.bottom{
+  background: url("/img/code.png") 50% 50% no-repeat;
+  background-size: 2000px;
+  margin: 20px;
+  margin: 61px;
+}
+
+.bottom h1 {
+  padding-top: 137px;
+  font-size: 3em;
+  width: 50%;
+}
+}
