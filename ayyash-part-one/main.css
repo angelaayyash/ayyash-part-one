@@ -6,6 +6,8 @@ html {
   
   header {
       /* float: left; */
+      
+
   }
 
   nav {
@@ -94,7 +96,7 @@ ul li:hover a{
 
 @media (min-width: 768px) {
   header{
-    display: inline-flex;
+    display: flex;
   
   }
   .header-cointainer{
@@ -139,7 +141,7 @@ button{
 }
 
 .bottom{
-  background: url("/img/code.png") 50% 50% no-repeat;
+  background: url("img/code.png") 50% 50% no-repeat;
   background-size: 2000px;
   margin: 20px;
   margin: 61px;
