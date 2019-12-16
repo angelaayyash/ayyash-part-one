@@ -36,7 +36,7 @@ html {
 
 button {
   background-color: #61c386;
-  color: white;
+  color:white;
   padding: 12px;
   text-align: center;
   border-radius: 10px;
@@ -45,12 +45,12 @@ button {
 }
 button:hover {
   background-color: #f7e966; 
-  color: white;
+  color: #61c386;
   cursor: pointer;
 }
 
 ul{
-  padding-inline-start: 0px;
+  padding: 0px;
 }
 ul li{
 
@@ -95,7 +95,7 @@ ul li:hover a{
 @media (min-width: 768px) {
   header{
     display: inline-flex;
-    
+  
   }
   .header-cointainer{
   display:flex;
